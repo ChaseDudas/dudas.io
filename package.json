@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chased13.github.io/home/",
+  "homepage": "https://dudas.io/home/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
