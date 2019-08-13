@@ -1,0 +1,16 @@
+#navBarTop {
+  background-color: #1ABCBD;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* unvisited link */
+#navBarTop a {
+  color: black;
+}
+
+/* mouse over link */
+#navBarTop a:hover {
+  color: grey;
+}
