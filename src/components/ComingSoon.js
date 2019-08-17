@@ -1,14 +1,14 @@
-import React from 'react';
- 
+import React, { Component } from "react";
+import CodingGif from '../assets/Coding.gif'
 import ComingSoon from 'react-coming-soon';
+import './ComingSoon.css';
  
-export default function App() {
-  return (
-    <ComingSoon
-      image="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/bananas-1296x728-feature.jpg?w=1155&h=1528"
-      bgColor="#fff"
-      textColor="#000"
-      illustration="development"
-    />
-  );
+class App extends Component {
+  render() {
+    return (
+    	<img src={CodingGif} alt="loading..."/>
+ 	);
+  }
 }
+ 
+export default App;
