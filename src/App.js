@@ -72,13 +72,7 @@ class App extends Component {
               I am also very competitive and love to play sports and game. 
               I mainly play Overwatch and Apex, but when Bordelands 3 comes out its *Game Over*
             </p>
-            <a className = 'status' href = 'https://github.com/ChaseD13/Resume/blob/master/ResumePDF%20-%204:15:19.pdf' target = '_blank' rel="noopener noreferrer">
-              <div id = 'status_light'>
-                <div id = 'status_light_ring'>
-                </div>
-                <div id = 'status_light_led'>
-                </div>
-              </div>
+            <a className = 'status' href = 'https://github.com/ChaseD13/Resume/blob/master/resume.pdf' target = '_blank' rel="noopener noreferrer">
               <div className = 'status_message'>
                 I am currently seeking full-time oppurtunities!
               </div>
@@ -163,7 +157,7 @@ class App extends Component {
                 <div className = 'job_title'>IT</div>
               </div>
             </div>
-              <a href = 'https://github.com/ChaseD13/Resume/blob/master/ResumePDF%20-%204:15:19.pdf' 
+              <a href = 'https://github.com/ChaseD13/Resume/blob/master/resume.pdf' 
                target = '_blank' className = 'hvr-icon-forward' id = 'resume_link' rel="noopener noreferrer">View My Resume
               <FaArrowRight class = 'hvr-icon link_icon'/>
               </a>
