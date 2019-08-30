@@ -141,7 +141,7 @@ class App extends Component {
               <div className = 'job'>
                 <div className = 'company_time'>
                   <div className = 'company'>
-                    <a href = 'http://www.zdonaldsonlab.com/' tagret = '_blank' rel="noopener noreferrer">The Donaldson Lab</a>
+                    <a href = "#" onClick={()=>window.open("http://www.zdonaldsonlab.com/")} rel="noopener noreferrer">The Donaldson Lab</a>
                   </div>
                   <div className = 'time'>May 2019 - Present</div>
                 </div>
@@ -150,7 +150,7 @@ class App extends Component {
               <div className = 'job'>
                 <div className = 'company_time'>
                   <div className = 'company'>
-                    <a href = 'https://www.ventura.org/general-services-agency/' tagret = '_blank' rel="noopener noreferrer">GSA</a>
+                    <a href = "#" onClick={()=>window.open("https://www.ventura.org/general-services-agency/")} rel="noopener noreferrer">GSA</a>
                   </div>
                   <div className = 'time'>May 2018 - August 2018</div>
                 </div>
