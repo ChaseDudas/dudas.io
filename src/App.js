@@ -40,7 +40,7 @@ class App extends Component {
             <span id= 'point_to_contact'></span>
             <span> 
               <a href="mailto:chasedudas13@gmail.com" target="_blank" rel="noopener noreferrer" className = 'hvr-icon-forward highlight_contact'>chasedudas13@gmail.com 
-              <FaArrowRight class = 'hvr-icon link_icon'/>
+              <FaArrowRight className = 'hvr-icon link_icon'/>
               </a>
             </span>
           </h3>
@@ -159,7 +159,7 @@ class App extends Component {
             </div>
               <a href = 'https://github.com/ChaseD13/Resume/blob/master/resume.pdf' 
                target = '_blank' className = 'hvr-icon-forward' id = 'resume_link' rel="noopener noreferrer">View My Resume
-              <FaArrowRight class = 'hvr-icon link_icon'/>
+              <FaArrowRight className = 'hvr-icon link_icon'/>
               </a>
           </div>
         </Fade>
