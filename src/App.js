@@ -24,9 +24,8 @@ class App extends Component {
     return (
       <div id = 'website'>
 
-
+      	<Fade bottom>
         <header id = 'headerSection'>
-        <Fade bottom>
           <h1 id = 'intro_hello'>
             Hey! 
           </h1>
@@ -44,8 +43,8 @@ class App extends Component {
               </a>
             </span>
           </h3>
-        </Fade>
         </header>
+        </Fade>
 
 
         <section id = "aboutSection">
